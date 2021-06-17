@@ -1,0 +1,104 @@
+header {
+    background: url(./images/pic_1.jpg);
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+button a {
+    color: inherit;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-size-xl {
+    font-size: 4.5rem;
+}
+
+.font-size-sm {
+    font-size: 1rem;
+}
+
+.navbar {
+    display: none;
+}
+
+.nav {
+    display: unset;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: #C271FF;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+p {
+    font-size: 20px;
+}
+
+p span {
+    color: #C271FF;
+}
+
+.card {
+    background: none;
+    width: 150px;
+}
+
+.carousel-mods {
+    background-color: #C271FF;
+    height: 15rem;
+}
+
+.fontIcon {
+    height: 100px;
+    width: 45px;
+}
+/* responsive css */
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-position: center;
+        height: 130vh;
+    }
+    .carousel-mods {
+        height: 20rem;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        background-position: 52% 0;
+        height: 150vh;
+    }
+    .navbar {
+        display: unset;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .font-size-xl {
+        font-size: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        height: 210vh;
+        background-position: 35% 0;
+    }
+}
